@@ -10,6 +10,10 @@ An evidence-backed case study from IMC's five-round international trading challe
 
 Each round combined an algorithmic submission with a manual challenge in a simulated market. Our team needed a repeatable way to compare ideas, tune parameters, identify misleading results, and make a final trading decision under a deadline.
 
+![Prosperity 4 competition scale](competition-scale-clean.jpg)
+
+The scale image is a privacy-safe crop of the retained official IMC results page. Only browser chrome was removed; the published competition figures were not altered. IMC's [current Prosperity 4 page](https://prosperity.imc.com/) independently confirms 18,803 participating teams and the five-round format.
+
 ## My contribution
 
 - Worked across strategy research, Python implementation, and backtesting during all five rounds.
@@ -31,7 +35,11 @@ The lesson was simple: a promising signal is not enough. Execution costs, robust
 - IMC's official site records **18,803 participating teams**.
 - The retained final leaderboard records the team at **#750 overall**, **#951 algorithmic**, **#749 manual**, and **#9 in country**.
 
-![IMC Prosperity 4 finals qualification](https://github.com/user-attachments/assets/b5d26d4f-7f62-4793-af1a-732329e15c29)
+![Retained Prosperity 4 final leaderboard](final-leaderboard-clean.jpg)
+
+The leaderboard image is a privacy-safe crop of the original official results screen. Only browser chrome was removed; the team name, rankings, and XIREC value were not altered.
+
+![IMC Prosperity 4 finals qualification](qualified-for-finals.png)
 
 ## What this case study demonstrates
 
