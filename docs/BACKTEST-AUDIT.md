@@ -28,6 +28,22 @@ This project is not maintained or endorsed by IMC. Its own README describes the 
 
 Rounded local values are shown because the audit is about scale and reproducibility, not false decimal precision.
 
+## Command pattern
+
+The retained files were executed with the community project's installed CLI, pinned source checkout, and extracted official data. The general command was:
+
+```text
+prosperity4btest <retained-submission.py> <round> \
+  --data <audited-official-data-root> \
+  --merge-pnl \
+  --match-trades all \
+  --no-out
+```
+
+Matching sensitivity was checked by repeating the run with `--match-trades worse` and `--match-trades none`. Round 5 was run once for each retained candidate. The audit used isolated copies of the submissions and data; it did not modify the private evidence archive.
+
+Input equivalence was checked by calculating SHA-256 for each extracted CSV and comparing the round/day/type pairs before execution. A matching filename alone was not treated as sufficient.
+
 ## Matching-mode sensitivity
 
 The community engine was run with `all`, `worse`, and `none` matching modes.
